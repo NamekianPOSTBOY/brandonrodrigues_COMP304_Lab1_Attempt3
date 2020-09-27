@@ -17,7 +17,7 @@ boolean startExe, createExe = false;
     public void onStart() {
         super.onStart();
         startExe = true;
-
+        Toast.makeText(getActivity(), R.string.onstart_executed, Toast.LENGTH_SHORT).show();
 
     }
 
@@ -34,16 +34,17 @@ boolean startExe, createExe = false;
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         View createTextView = inflater.inflate(R.layout.fragment_bottom_text, container, false);
-        mainActivityTitle = (TextView) createTextView.findViewById(R.id.mainActivityTitle);
+        Toast.makeText(getActivity(), R.string.oncreate_executed, Toast.LENGTH_SHORT).show();
+        mainActivityTitle = createTextView.findViewById(R.id.mainActivityTitle);
 
 
         if(createExe) {
-            onCreateMsg = (TextView) createTextView.findViewById(R.id.onCreate);
+            onCreateMsg = createTextView.findViewById(R.id.onCreate);
 
         }
 
         if(startExe) {
-            onStartMsg = (TextView) createTextView.findViewById(R.id.onStart);
+            onStartMsg = createTextView.findViewById(R.id.onStart);
 
         }
         return createTextView;
