@@ -11,5 +11,12 @@
         android:layout_height="match_parent"
         android:layout_weight="0.5" />
 
+    <fragment
+        android:id="@+id/fragment_bottom_text"
+        android:name="com.example.brandonrodrigues_comp304_lab1_attempt3.BottomTextFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5" />
+
 
 </LinearLayout>
