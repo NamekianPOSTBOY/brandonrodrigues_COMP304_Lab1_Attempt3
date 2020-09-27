@@ -2,4 +2,10 @@
     <string name="app_name">brandonrodrigues_COMP304_Lab1_Attempt3</string>
 
     <string name="oncreate_executed">onCreate executed</string>
+    <string name="main_activity">Main Activity:</string>
+    <string name="onstart_executed">onStart executed</string>
+    <string name="vractivity">VRActivity:</string>
+    <string name="onstop_executed">onStop executed</string>
+    <string name="ondestroy_executed">onDestroy executed</string>
+    <string name="aiactivity">AIActivity:</string>
 </resources>

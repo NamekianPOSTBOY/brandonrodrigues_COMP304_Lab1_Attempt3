@@ -9,12 +9,60 @@
     android:orientation="vertical">
 
     <TextView
-
+        android:id="@+id/VRActivityTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="#FFD700"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:text="@string/vractivity"
+        />
 
-        android:textSize="50sp"
+    <TextView
+        android:id="@+id/onCreateVR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
         android:textColor="#FFA500"
-        android:text="Edit This."
-        tools:context=".AIActivity"/>
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:text="@string/oncreate_executed"
+        />
+
+    <TextView
+        android:id="@+id/onStartVR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="#FFA500"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:text="@string/onstart_executed"
+        />
+
+    <TextView
+        android:id="@+id/onStopVR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="#FFA500"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:text="@string/onstop_executed"
+        />
+
+    <TextView
+        android:id="@+id/onDestroyVR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="#FFA500"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:text="@string/ondestroy_executed"
+        />
+
+
+
 </LinearLayout>

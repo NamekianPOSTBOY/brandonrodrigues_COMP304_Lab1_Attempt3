@@ -9,12 +9,58 @@
     android:orientation="vertical">
 
     <TextView
-
+        android:id="@+id/AIActivityTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
-        android:textSize="50dp"
+        android:textSize="25sp"
         android:textColor="#9400D3"
-        android:text="Edit This."
-        tools:context=".AIActivity"/>
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:text="@string/aiactivity"
+        />
+
+    <TextView
+        android:id="@+id/onCreateAI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="#9400D3"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:text="@string/oncreate_executed"
+        />
+
+    <TextView
+        android:id="@+id/onStartAI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="#9400D3"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:text="@string/onstart_executed"
+        />
+
+    <TextView
+        android:id="@+id/onStopAI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="#9400D3"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:text="@string/onstop_executed"
+        />
+
+    <TextView
+        android:id="@+id/onDestroyAI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="#9400D3"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:text="@string/ondestroy_executed"
+        />
+
 </LinearLayout>
